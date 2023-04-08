@@ -65,4 +65,5 @@ let gridElement = document.querySelectorAll(".gridSquare");
 const gridContainer = document.getElementById("grid");
 const drawButton = document.querySelector("#draw");
 drawButton.addEventListener("click", function(){getGridSize()});
+drawGrid(16);
 
